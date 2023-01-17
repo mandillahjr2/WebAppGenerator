@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "AppName",
+    "version": "1.0",
+    "permissions": ["activeTab", "webRequest", "webNavigation"],
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
